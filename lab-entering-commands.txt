@@ -1,4 +1,3 @@
-
 Lab - Entering Commands
 ==========
 Follow the instructions line-by-line.  
@@ -16,7 +15,9 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
-----------
+
+Desktop		Downloads	Movies		My Song.band	Public		Things		vms
+Documents	Library		Music		Pictures	Sites		VirtualBox VMs
 
 
 
@@ -26,19 +27,20 @@ Copy and paste the output of ls below.
 $ ls D<TAB>
 
 What happens?  Describe it below.
-----------
 
-
+There were no changes during the first press of <TAB>.
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
+
+Desktop/   Documents/ Downloads/
 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
-----------
+
+ls: D: No such file or directory
 
 
 
@@ -48,7 +50,9 @@ What happens?  Describe it below.
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-----------
+
+-rw-------   1 student  staff  638283 Jan 23  2009 About Stacks.pdf
+drwxr-xr-x   6 student  staff     204 Jan 22 19:59 Adobe
 
 
 
@@ -58,7 +62,9 @@ Copy and paste the first *two lines* of output below.
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
-----------
+
+.			.RA5PAB5TCC18I		AdobeStockPhotos	Eclipse			Max			Student Work
+..			.localized		Arduino			Eclipse Workspace	Microsoft User Data	Test
 
 
 
@@ -68,7 +74,8 @@ Copy and paste the first *two lines* of output below.
 <UP><ENTER>
 
 What command was repeated?
-----------
+
+ls -a Documents
 
 
 
@@ -78,7 +85,8 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
-----------
+
+ls -a Documents
 
 
 
@@ -88,7 +96,8 @@ What command was repeated?
 $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
-----------
+
+Macintosh HD
 
 
 
@@ -98,38 +107,43 @@ What is the result of pressing tab?
 $ ls doesnotexist
 
 Copy and paste the output below.
-----------
+
+ls: doesnotexist: No such file or directory
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
-----------
+
+<UP>
 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
-----------
+
+-l
+-a
 
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
-----------
 
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
-----------
+
+ls
 
 
 
 ==========
 13.  Name one argument that we passed to the command.
-----------
 
+Desktop
 
 
 ==========
@@ -138,7 +152,8 @@ Copy and paste the output below.
 $ foo<ENTER>
 
 Copy and paste the output below.
-----------
+
+-bash: foo: command not found
 
 
 
@@ -148,8 +163,8 @@ Copy and paste the output below.
 <UP><ENTER>
 
 Copy and paste the output below.
-----------
 
+-bash: foo: command not found
 
 
 ==========
@@ -158,4 +173,8 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
-----------
+
+Command: ls
+Flag: -a
+Argument: Desktop
+Prompt: $
